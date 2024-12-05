@@ -1,2 +1,6 @@
 # git commands
 alias gs='git status'
+alias gl='git log'
+alias gca='git commit --amend --no-edit'
+alias gp='git push --force-with-lease origin HEAD'
+alias grh='git reset --hard'
