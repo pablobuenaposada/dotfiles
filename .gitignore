@@ -1,3 +1,5 @@
 *
 !.gitignore
-!.zsh_aliases
+!.zshrc
+!.oh-my-zsh/custom/.gitignore
+!.oh-my-zsh/custom/aliases.zsh
