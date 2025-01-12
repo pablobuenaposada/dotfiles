@@ -1,5 +1,6 @@
+# ignore everything
 *
-!.gitignore
-!.zshrc
-!.oh-my-zsh/custom/.gitignore
-!.oh-my-zsh/custom/aliases.zsh
+
+# unignore oh my zsh customizations
+!.oh-my-zsh-custom/
+!.oh-my-zsh-custom/*
