@@ -1,6 +1,8 @@
 # ignore everything
 *
 
+!Makefile
+
 # unignore oh my zsh customizations
 !.oh-my-zsh-custom/
 !.oh-my-zsh-custom/*
