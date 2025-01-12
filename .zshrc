@@ -1,4 +1,4 @@
-# oh my zsh crap
+# oh-my-zsh crap
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 ZSH_CUSTOM="$HOME/.oh-my-zsh-custom/"
@@ -22,5 +22,29 @@ precmd() {
     fi
 }
 RPROMPT='%F{yellow}⌛ $ELAPSED_TIME%f'
+
+# crap for changing background color by folder
+function set_background_color() {
+    local folder="$PWD"
+
+    # Default background color (e.g., black)
+    local color="\033]11;#000000\007"
+
+    # Change the background color based on the folder
+    if [[ "$folder" == *"northwood"* ]]; then
+        color="\033]11;#051b1f\007"
+    elif [[ "$folder" == *"prescott"* ]]; then
+        color="\033]11;#1f0d05\007"
+    fi
+
+    # Apply the color
+    echo -e "$color"
+}
+if [[ "$SHELL" =~ "zsh" ]]; then
+    autoload -U add-zsh-hook
+    add-zsh-hook chpwd set_background_color
+else
+    PROMPT_COMMAND=set_background_color
+fi
 
 source $ZSH/oh-my-zsh.sh
