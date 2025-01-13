@@ -24,17 +24,25 @@ precmd() {
 RPROMPT='%F{yellow}⌛ $ELAPSED_TIME%f'
 
 # crap for changing background color by folder
+tab-color() {
+    echo -ne "\033]6;1;bg;red;brightness;$1\a"
+    echo -ne "\033]6;1;bg;green;brightness;$2\a"
+    echo -ne "\033]6;1;bg;blue;brightness;$3\a"
+}
 function set_background_color() {
     local folder="$PWD"
 
     # Default background color (e.g., black)
     local color="\033]11;#000000\007"
+    tab-color 0 0 0
 
     # Change the background color based on the folder
     if [[ "$folder" == *"northwood"* ]]; then
         color="\033]11;#051b1f\007"
+        tab-color 0 0 255
     elif [[ "$folder" == *"prescott"* ]]; then
         color="\033]11;#1f0d05\007"
+        tab-color 255 0 0
     fi
 
     # Apply the color

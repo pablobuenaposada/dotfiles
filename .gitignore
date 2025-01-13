@@ -6,3 +6,6 @@
 # unignore oh my zsh customizations
 !.oh-my-zsh-custom/
 !.oh-my-zsh-custom/*
+
+# but ignore this from customizations
+.oh-my-zsh-custom/secret-aliases.zsh
