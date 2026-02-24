@@ -64,4 +64,15 @@ else
     PROMPT_COMMAND=set_background_color
 fi
 
+# git pull request
+gprequest() {
+  local prnum="$1"
+  local branch="pr-$prnum"
+  # Find a branch that is not pr-$prnum
+  local default_branch=$(git branch | grep -v "$branch" | head -n 1 | sed 's/[* ]//g')
+  git checkout "$default_branch"
+  git fetch origin pull/$prnum/head:$branch --force
+  git checkout $branch
+}
+
 source $ZSH/oh-my-zsh.sh
