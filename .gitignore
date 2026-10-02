@@ -9,3 +9,8 @@
 
 # but ignore this from customizations
 .oh-my-zsh-custom/secret-aliases.zsh
+
+# PyCharm project config (exclusions)
+!.idea/
+!.idea/pablo.iml
+!.idea/modules.xml

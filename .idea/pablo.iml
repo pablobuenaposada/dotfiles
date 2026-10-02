@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.Trash" />
+      <excludeFolder url="file://$MODULE_DIR$/.ansible" />
+      <excludeFolder url="file://$MODULE_DIR$/.cache" />
+      <excludeFolder url="file://$MODULE_DIR$/.cagent" />
+      <excludeFolder url="file://$MODULE_DIR$/.claude" />
+      <excludeFolder url="file://$MODULE_DIR$/.cloudflared" />
+      <excludeFolder url="file://$MODULE_DIR$/.config" />
+      <excludeFolder url="file://$MODULE_DIR$/.copilot" />
+      <excludeFolder url="file://$MODULE_DIR$/.cups" />
+      <excludeFolder url="file://$MODULE_DIR$/.docker" />
+      <excludeFolder url="file://$MODULE_DIR$/.dropbox" />
+      <excludeFolder url="file://$MODULE_DIR$/.electrum-ltc" />
+      <excludeFolder url="file://$MODULE_DIR$/.gnupg" />
+      <excludeFolder url="file://$MODULE_DIR$/.ipython" />
+      <excludeFolder url="file://$MODULE_DIR$/.junie" />
+      <excludeFolder url="file://$MODULE_DIR$/.local" />
+      <excludeFolder url="file://$MODULE_DIR$/.matplotlib" />
+      <excludeFolder url="file://$MODULE_DIR$/.npm" />
+      <excludeFolder url="file://$MODULE_DIR$/.oh-my-zsh" />
+      <excludeFolder url="file://$MODULE_DIR$/.ollama" />
+      <excludeFolder url="file://$MODULE_DIR$/.pyenv" />
+      <excludeFolder url="file://$MODULE_DIR$/.ssh" />
+      <excludeFolder url="file://$MODULE_DIR$/.u2net" />
+      <excludeFolder url="file://$MODULE_DIR$/.vim" />
+      <excludeFolder url="file://$MODULE_DIR$/.zsh_sessions" />
+      <excludeFolder url="file://$MODULE_DIR$/Applications" />
+      <excludeFolder url="file://$MODULE_DIR$/Desktop" />
+      <excludeFolder url="file://$MODULE_DIR$/Documents" />
+      <excludeFolder url="file://$MODULE_DIR$/Downloads" />
+      <excludeFolder url="file://$MODULE_DIR$/Dropbox" />
+      <excludeFolder url="file://$MODULE_DIR$/Library" />
+      <excludeFolder url="file://$MODULE_DIR$/Movies" />
+      <excludeFolder url="file://$MODULE_DIR$/Music" />
+      <excludeFolder url="file://$MODULE_DIR$/Pictures" />
+      <excludeFolder url="file://$MODULE_DIR$/Public" />
+      <excludeFolder url="file://$MODULE_DIR$/PyCharmMiscProject" />
+      <excludeFolder url="file://$MODULE_DIR$/wireguard-config" />
+      <excludePattern pattern="*.hprof" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
